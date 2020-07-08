@@ -1,0 +1,36 @@
+
+.an_dan{
+	position: relative;
+}
+#an div ul{
+	z-index: 10;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	background: #fff;
+	border: 1px solid red;
+	border-top: none;
+	display: none;
+	width: 244px;
+	height: 300px;
+}
+#an #text:focus ul{
+	height: 350px;
+}
+#an ul li{
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0px ;
+	text-indent: 15px;
+	cursor: pointer;
+}
+#an ul li:hover{
+	background: #FAFAFA;
+}
+#an ul li a{
+	color: #333;
+}
+#an ul li a:hover{
+	color: #333;
+	background: #FAFAFA;
+}
