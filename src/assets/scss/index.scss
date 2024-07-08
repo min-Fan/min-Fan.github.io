@@ -1,0 +1,210 @@
+.main-box-tit {
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-size: 114px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140px; /* 122.807% */
+  letter-spacing: -4.8px;
+  text-transform: capitalize;
+  @screen md {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+    text-transform: capitalize;
+  }
+}
+
+.main-box-p {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 140%; /* 30.8px */
+  padding: 0 30px;
+  @screen md {
+    color: rgba(255, 255, 255, 0.72);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    padding: 0 10px;
+  }
+}
+
+.btn-box {
+  div {
+    padding: 15px 36px;
+    @screen md {
+      padding: 10px 24px;
+    }
+  }
+}
+.gird-1 {
+  border-right: 1px solid rgba(217, 217, 217, 0.2);
+  padding: 67px 76px 67px 0;
+  display: flex;
+  justify-content: flex-end;
+  p {
+    display: inline-block;
+    max-width: 642px;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 89.6px */
+    text-transform: capitalize;
+  }
+  @screen xl {
+    padding: 67px 0 0;
+    p {
+      display: inline-block;
+      max-width: 442px;
+      font-size: 44px;
+    }
+  }
+  @screen md {
+    padding: 30px 60px;
+    border-right: none;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    justify-content: center;
+    p {
+      max-width: 100%;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 140%; /* 39.2px */
+      text-transform: capitalize;
+    }
+  }
+}
+.gird-2 {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+  padding: 96px 0 96px 126px;
+  p {
+    display: inline-block;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 30.8px */
+  }
+  @screen xl {
+    padding: 56px 0 56px 26px;
+    p {
+      display: inline-block;
+      max-width: 442px;
+      font-size: 18px;
+    }
+  }
+  @screen md {
+    padding: 30px 60px;
+    p {
+      max-width: 100%;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+    }
+  }
+}
+.gird-3 {
+  padding: 96px 0 96px 126px;
+  p {
+    display: inline-block;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 30.8px */
+  }
+  @screen xl {
+    padding: 56px 0 56px 26px;
+    p {
+      display: inline-block;
+      max-width: 442px;
+      font-size: 18px;
+    }
+  }
+  @screen md {
+    padding: 30px 60px;
+    p {
+      max-width: 100%;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+    }
+  }
+}
+
+.list-item {
+  background-color: #fff;
+  h3 {
+    color: #242629;
+    font-weight: 400;
+    line-height: 140%; /* 44.8px */
+    letter-spacing: -0.96px;
+  }
+  .code-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      width: 154px;
+      margin: auto;
+    }
+  }
+  p {
+    color: rgba(28, 28, 30, 0.72);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%; /* 30.8px */
+  }
+  @screen xl {
+    h3 {
+      color: #242629;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 140%; /* 44.8px */
+      letter-spacing: -0.96px;
+    }
+    .code-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 100px;
+        margin: auto;
+      }
+    }
+    p {
+      color: rgba(28, 28, 30, 0.72);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 140%; /* 30.8px */
+    }
+  }
+  @screen md {
+    .code-img {
+      svg {
+        width: 113px;
+        margin: auto;
+      }
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
